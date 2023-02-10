@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"/>
+<title>Bootstrap Example</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="p-5 m-0 border-0 bd-example">
+<!-- Header -->
+<app-header></app-header>
+<!-- Navbar -->
+<app-navbar></app-navbar>
+<!-- Container -->
+<div class="container d-flex justify-content-between">
+	<div class="container px-5">
+		<!-- Content here -->
+		<div class="d-flex justify-content-between">
+			<p class="mb-2">Videos</p>
+			<p class="mb-2" style="margin-right:3rem !important;"><p class="mb-2"><fa-icon style="padding:1px;" [icon]="faBars"></fa-icon>
+				<small>&nbsp;Browse all Video</small>
+			</p>
+		</div>
+		<div class="row">
+			<div class="card m-2" style="width: 31rem; height:20.5rem">
+				<div class="card-body d-flex align-items-end justify-content-start p-0">
+					<div class="row">
+						<div class="col-12">
+							<h3 class="mb-2">How to Improve your Skill</h3>
+						</div>
+						<div class="d-flex justify-content-between">
+							<p class="mb-2">Waseeem Arshad</p>
+							<p class="mb-2" style="margin-right:0rem !important;">100.000 Views</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-between p-0 m-1 ">
+						<p class="mb-2">
+							<small>Michael Keylight</small>
+						</p>
+						<p class="mb-2">
+							<small>124.000 views</small>
+						</p>
+					</div>
+				</div>
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-between p-0 m-1 ">
+						<p class="mb-2">
+							<small>Ahmed Yasiin</small>
+						</p>
+						<p class="mb-2">
+							<small>233.323 views</small>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-between p-0 m-0 ">
+						<p class="mb-2">
+							<small>John Stainior</small>
+						</p>
+						<p class="mb-2">
+							<small>122.313 views</small>
+						</p>
+					</div>
+				</div>
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-between p-0 m-0 ">
+						<p class="mb-2">
+							<small>Jhon Doe</small>
+						</p>
+						<p class="mb-2">
+							<small>991.000 views</small>
+						</p>
+					</div>
+				</div>
+				<div class="card m-2 col-md-2" style="width: 15rem; height:10rem; margin-left:20px !important">
+					<div class=" card-body d-flex align-items-center justify-content-center ">
+						<p class="text-center">
+							<fa-icon style="border: 1px solid; padding:10px; border-radius: 50%;" [icon]="faVideo"></fa-icon>
+							&nbsp;Upload Your Own Video
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="d-flex justify-content-between">
+			<p class="mb-2">Activity</p>
+			<p class="mb-2"><fa-icon style="padding:1px;" [icon]="faBars"></fa-icon>
+				<small>&nbsp;View timeline / Filter</small>
+			</p>
+		</div>
+		<hr class="border border-black border-2 opacity-50"/>
+		<div class="col-12">
+			<div class="card mb-3" style="width: 25rem; height:max-content">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="..." class="img-fluid rounded-start" alt="..."/>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body text-left">
+							<p class="mb-0 m-0"><small>Jhon Stainor</small></p>
+							<p class="mb-0 m-0"><small>Well I am liking it how capture the...</small></p>
+              <p class="mb-0 m-0"><fa-icon style="padding:1px;" [icon]="faCode"></fa-icon><small class="text-muted">&nbsp;2 mins ago</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3" style="width: 25rem; height:max-content">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="..." class="img-fluid rounded-start" alt="..."/>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body text-left">
+							<p class="mb-0 m-0"><small>Jhon Stainor</small></p>
+							<p class="mb-0 m-0"><small>Well I am liking it how capture the...</small></p>
+              <p class="mb-0 m-0"><fa-icon style="padding:1px;" [icon]="faCode"></fa-icon><small class="text-muted">&nbsp;2 mins ago</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3" style="width: 25rem; height:max-content">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="..." class="img-fluid rounded-start" alt="..."/>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body text-left">
+							<p class="mb-0 m-0"><small>Jhon Stainor</small></p>
+							<p class="mb-0 m-0"><small>Well I am liking it how capture the...</small></p>
+              <p class="mb-0 m-0"><fa-icon style="padding:1px;" [icon]="faFile"></fa-icon><small class="text-muted">&nbsp;2 mins ago</small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3" style="width: 25rem; height:max-content">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="..." class="img-fluid rounded-start" alt="..."/>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body text-left">
+							<p class="mb-0 m-0"><small>Arjun</small></p>
+							<p class="mb-0 m-0"><small>Well I am liking it how capture the...</small></p>
+              <p class="mb-0 m-0"><fa-icon style="padding:1px;" [icon]="faUnlock"></fa-icon><small class="text-muted">&nbsp;2 mins ago</small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3" style="width: 25rem; height:max-content">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="..." class="img-fluid rounded-start" alt="..."/>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body text-left">
+							<p class="mb-0 m-0"><small>Micheal</small></p>
+							<p class="mb-0 m-0"><small>Well I am liking it how capture the...</small></p>
+              <p class="mb-0 m-0"><fa-icon style="padding:1px;" [icon]="faCode"></fa-icon><small class="text-muted">&nbsp;2 mins ago</small>]]</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3" style="width: 25rem; height:max-content">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="..." class="img-fluid rounded-start" alt="..."/>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body text-left">
+							<p class="mb-0 m-0"><small>Jhon Stainor</small></p>
+							<p class="mb-0 m-0"><small>Well I am liking it how capture the...</small></p>
+              <p class="mb-0 m-0"><fa-icon style="padding:1px;" [icon]="faHeart"></fa-icon><small class="text-muted">&nbsp;2 mins ago</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container d-flex justify-content-between">
+	<div class="container px-5">
+		<!-- Content here -->
+		<div class="row">
+			<div class="d-flex justify-content-between">
+				<p class="mb-2">People</p>
+				<p class="mb-2" style="margin-right:3rem !important;"><fa-icon style="padding:1px;" [icon]="faBars"></fa-icon>
+					<small>&nbsp;View all</small>
+				</p>
+			</div>
+			<div class="card m-2" style="width: 31rem; height:20.5rem">
+				<div class="card-body d-flex align-items-end justify-content-start p-0">
+					<div class="row">
+						<div class="col-12">
+							<h3 class="mb-2">Waseem Arshad</h3>
+						</div>
+						<div class="d-flex justify-content-between">
+							<p class="mb-2">User Interface Designer</p>
+							<p class="mb-2" style="margin-right:0rem !important;">
+								<small>1.120.000 Views</small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col">
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-start p-0 m-1 ">
+						<p class="mb-2">Michael Keylight</p>
+					</div>
+				</div>
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-start p-0 m-1 ">
+						<p class="mb-2">Ahmed Yasiin</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-start p-0 m-1 ">
+						<p class="mb-2">John Stainor</p>
+					</div>
+				</div>
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-start p-0 m-1 ">
+						<p class="mb-2">Jhon Doe</p>
+					</div>
+				</div>
+				<div class="card m-2 col-md-2" style="width: 15rem; height:10rem; margin-left:20px !important">
+					<div class=" card-body d-flex align-items-center justify-content-center ">
+						<p class="text-center">
+							<fa-icon style="border: 1px solid; padding:10px; border-radius: 50%;" [icon]="faCircle"></fa-icon>
+							&nbsp;Upload Your Work
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="d-flex justify-content-between">
+			<p class="mb-2">Channels</p>
+			<p class="mb-2">
+				<fa-icon style="padding:1px;" [icon]="faBars"></fa-icon><small>Browse all Channels</small>
+			</p>
+		</div>
+		<hr class="border border-black border-2 opacity-50"/>
+		<div class="col-12">
+
+      <div class="card-group">
+			<div class="card m-2" style="width: 10rem; height:8rem">
+				<div class="card-body d-flex align-items-end justify-content-start p-0">
+					<div class="col-12">
+						<p class="mb-1 m-2">
+							<small>Google</small>
+						</p>
+					</div>
+				</div>
+			</div>
+
+      <div class="card-group">
+        <div class="card m-2" style="width: 12rem; height:8rem">
+          <div class="card-body d-flex align-items-end justify-content-start p-0">
+            <div class="col-12">
+              <p class="mb-1 m-2">
+                <small>Dribble</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="card-group">
+        <div class="card m-2" style="width: 10rem; height:8rem">
+          <div class="card-body d-flex align-items-end justify-content-start p-0">
+            <div class="col-12">
+              <p class="mb-1 m-2">
+                <small>Microsoft</small>
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card-group">
+          <div class="card m-2" style="width: 12rem; height:8rem">
+            <div class="card-body d-flex align-items-end justify-content-start p-0">
+              <div class="col-12">
+                <p class="mb-1 m-2">
+                  <small>Behance</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        </div>
+
+        <div class="card-group">
+          <div class="card m-2" style="width: 10rem; height:8rem">
+            <div class="card-body d-flex align-items-end justify-content-start p-0">
+              <div class="col-12">
+                <p class="mb-1 m-2">
+                  <small>Weather Channel</small>
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card-group">
+            <div class="card m-2" style="width: 12rem; height:8rem">
+              <div class="card-body d-flex align-items-end justify-content-start p-0">
+                <div class="col-12">
+                  <p class="mb-1 m-2">
+                    <small>Gurus</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          </div>
+
+          <div class="card-group">
+            <div class="card m-2" style="width: 10rem; height:8rem">
+              <div class="card-body d-flex align-items-end justify-content-start p-0">
+                <div class="col-12">
+                  <p class="mb-1 m-2">
+                    <small>iMedia</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card-group">
+              <div class="card m-2" style="width: 12rem; height:8rem">
+                <div class="card-body d-flex align-items-end justify-content-start p-0">
+                  <div class="col-12">
+                    <p class="mb-1 m-2">
+                      <small>Creativeye</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            </div>
+
+            <div class="card-group">
+              <div class="card m-2" style="width: 10rem; height:8rem">
+                <div class="card-body d-flex align-items-end justify-content-start p-0">
+                  <div class="col-12">
+                    <p class="mb-1 m-2">
+                      <small>Khan Studio</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="card-group">
+                <div class="card m-2" style="width: 12rem; height:8rem">
+                  <div class="card-body d-flex align-items-end justify-content-start p-0">
+                    <div class="col-12">
+                      <p class="mb-1 m-2">
+                        <small>Yahoo</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              </div>
+
+			
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="container px-5">
+		<!-- Content here -->
+		<div class="row">
+			<div class="d-flex justify-content-between">
+				<p class="mb-2">Documents</p>
+				<p class="mb-2" style="margin-right:28rem !important;">
+					<fa-icon style="padding:1px;" [icon]="faBars"></fa-icon><small>&nbsp; Browse all Documents</small>
+				</p>
+			</div>
+			<div class="card m-2" style="width: 31rem; height:20.5rem">
+				<div class="card-body d-flex align-items-end justify-content-start p-0">
+					<div class="row">
+						<div class="col-12">
+							<h3 class="mb-2">Mobile. UI & UX Guide 2013</h3>
+						</div>
+						<div class="d-flex justify-content-between">
+							<p class="mb-2">By William Makhoja</p>
+							<p class="mb-2" style="margin-right:0rem !important;">
+								<small>1.342.232 Views</small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-start p-0 ">
+						<div class="col-12">
+							<p class="mb-0 m-1">HTML 5 and Usage</p>
+							<p class="mb-0 m-1">
+								<small>14.231 Views</small>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-start p-0 ">
+						<div class="col-12">
+							<p class="mb-0 m-1">How to become an Expert?</p>
+							<p class="mb-0 m-1">
+								<small>14.333.231 Views</small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-start p-0 ">
+						<div class="col-12">
+							<p class="mb-0 m-1">2023 Marketing Trends</p>
+							<p class="mb-1 m-1">
+								<small>16.345.231 Views</small>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card m-2" style="width: 15rem; height:10rem">
+					<div class=" card-body d-flex align-items-end justify-content-start p-0 ">
+						<div class="col-12">
+							<p class="mb-0 m-1">2023 Marketing Trends</p>
+							<p class="mb-1 m-1">
+								<small>19.433.231 Views</small>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card m-2 col-md-2" style="width: 15rem; height:10rem; margin-left:20px !important">
+					<div class=" card-body d-flex align-items-center justify-content-center ">
+						<p class="text-center">
+							<fa-icon style="border: 1px solid; padding:10px; border-radius: 50%;" [icon]="faPlus"></fa-icon>
+							&nbsp; Upload Your Document
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- End Example Code -->
+<app-footer></app-footer>
+</body>
+</html>
